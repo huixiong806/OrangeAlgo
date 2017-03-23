@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="..\src\DataStructure\SegmentTree.hpp">
+      <Filter>src\data_structure</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\DataStructure\BinaryIndexTree.hpp">
+      <Filter>src\data_structure</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ComputationGeometry\Fraction.hpp">
+      <Filter>src\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Graph\ShortestPathFasterAlgorithm.hpp">
+      <Filter>src\graph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ComputationGeometry\Vector2.hpp">
+      <Filter>src\computation_geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Graph\AdjacencyListGraph.hpp">
+      <Filter>src\graph</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{b42fbbbf-a0c7-486a-96be-8117e8df5b50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\data_structure">
+      <UniqueIdentifier>{6db3b2c6-af36-46ea-9380-99cf8fb9d7d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\graph">
+      <UniqueIdentifier>{c762e23a-6154-4839-a1bd-83cb2c824822}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\math">
+      <UniqueIdentifier>{532df193-b46e-4f86-addb-1916f1e3b1f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\computation_geometry">
+      <UniqueIdentifier>{5aa356bc-b670-49f5-ad26-7415d7637ff4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\UnitTest\mainTest.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

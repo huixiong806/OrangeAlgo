@@ -1,0 +1,9 @@
+Release/
+Debug/
+OrangeAlgo/Release/
+OrangeAlgo/Debug/
+UnitTest/Release/
+UnitTest/Debug/
+OrangeAlgo.VC.db
+.vs/
+*.sdf
